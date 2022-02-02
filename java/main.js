@@ -39,7 +39,7 @@ if(month>=3 && month<=5) {
     }
 }else if(month<=2 || month==12) {
     if(hour<=8) {
-        b.style.backgroundImage = ' url("fetchImages(shiba)")';
+        b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
     }else if(hour<=16) {
         b.style.backgroundImage = ' url("./images/data11.jpg")';
     }else if(hour<=24) {
