@@ -41,8 +41,8 @@ if(month>=3 && month<=5) {
     if(hour<=8) {
         b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
     }else if(hour<=16) {
-        b.style.backgroundImage = ' url("./images/data11.jpg")';
+        b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
     }else if(hour<=24) {
-        b.style.backgroundImage = ' url("./images/data12.jpg")';
+        b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
     }
 }
