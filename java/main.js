@@ -5,7 +5,7 @@ const b = document.getElementById("body");
 const div = document.querySelector('.localStorage');
 const btnSave = document.querySelector('.btnSave');
 const btnRead = document.querySelector('.btnRead');
-const input = document.querySelector('.input');
+const input = document.querySelector('input');
 
 
 if(month>=3 && month<=5) {
