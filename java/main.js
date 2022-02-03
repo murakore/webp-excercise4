@@ -92,7 +92,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey12',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey1');
+            const data = localStorage.getItem('myKey12');
             input.value = data;
         });
     }
