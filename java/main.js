@@ -8,7 +8,6 @@ async function fetchImages(breed) {
       `https://dog.ceo/api/breed/${breed}/images/random/1`
     );
     const data = await response.json();
-    console.log(data.message);
 }
 
 
@@ -41,8 +40,8 @@ if(month>=3 && month<=5) {
     if(hour<=8) {
         b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
     }else if(hour<=16) {
-        b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
+        b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-9.jpg")';
     }else if(hour<=24) {
-        b.style.backgroundImage = ' url("https://dog.ceo/api/breed/shiba/images/random/1")';
+        b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-10.jpg")';
     }
 }
