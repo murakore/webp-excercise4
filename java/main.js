@@ -25,11 +25,19 @@ if(month>=3 && month<=5) {
             const data = input.value;
             localStorage.setItem('myKey2',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey2');
+            input.value = data;
+        });
     }else if(hour<=24) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-3.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey3',data);
+        });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey3');
+            input.value = data;
         });
     }
 }else if(month>=6 && month<=8) {
@@ -39,17 +47,29 @@ if(month>=3 && month<=5) {
             const data = input.value;
             localStorage.setItem('myKey4',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey4');
+            input.value = data;
+        });
     }else if(hour<=16) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-5.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey5',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey5');
+            input.value = data;
+        });
     }else if(hour<=24) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-6.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey6',data);
+        });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey6');
+            input.value = data;
         });
     } 
 }else if(month>=9 && month<=11) {
@@ -59,17 +79,29 @@ if(month>=3 && month<=5) {
             const data = input.value;
             localStorage.setItem('myKey7',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey7');
+            input.value = data;
+        });
     }else if(hour<=16) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-8.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey8',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey8');
+            input.value = data;
+        });
     }else if(hour<=24) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-9.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey9',data);
+        });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey9');
+            input.value = data;
         });
     }
 }else if(month<=2 || month==12) {
@@ -79,11 +111,19 @@ if(month>=3 && month<=5) {
             const data = input.value;
             localStorage.setItem('myKey10',data);
         });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey10');
+            input.value = data;
+        });
     }else if(hour<=16) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-11.jpg")';
         btnSave.addEventListener('click', () => {
             const data = input.value;
             localStorage.setItem('myKey11',data);
+        });
+        btnRead.addEventListener('click', () => {
+            const data = localStorage.getItem('mykey11');
+            input.value = data;
         });
     }else if(hour<=24) {
         b.style.backgroundImage = ' url("https://images.dog.ceo/breeds/shiba/shiba-12.jpg")';
@@ -95,5 +135,6 @@ if(month>=3 && month<=5) {
             const data = localStorage.getItem('myKey12');
             input.value = data;
         });
+        
     }
 }
