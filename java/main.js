@@ -16,7 +16,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey1',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey1');
+            const data = localStorage.getItem('myKey1');
             input.value = data;
         });
     }else if(hour<=16) {
@@ -26,7 +26,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey2',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey2');
+            const data = localStorage.getItem('myKey2');
             input.value = data;
         });
     }else if(hour<=24) {
@@ -36,7 +36,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey3',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey3');
+            const data = localStorage.getItem('myKey3');
             input.value = data;
         });
     }
@@ -48,7 +48,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey4',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey4');
+            const data = localStorage.getItem('myKey4');
             input.value = data;
         });
     }else if(hour<=16) {
@@ -58,7 +58,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey5',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey5');
+            const data = localStorage.getItem('myKey5');
             input.value = data;
         });
     }else if(hour<=24) {
@@ -68,7 +68,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey6',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey6');
+            const data = localStorage.getItem('myKey6');
             input.value = data;
         });
     } 
@@ -80,7 +80,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey7',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey7');
+            const data = localStorage.getItem('myKey7');
             input.value = data;
         });
     }else if(hour<=16) {
@@ -90,7 +90,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey8',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey8');
+            const data = localStorage.getItem('myKey8');
             input.value = data;
         });
     }else if(hour<=24) {
@@ -100,7 +100,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey9',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey9');
+            const data = localStorage.getItem('myKey9');
             input.value = data;
         });
     }
@@ -112,7 +112,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey10',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey10');
+            const data = localStorage.getItem('myKey10');
             input.value = data;
         });
     }else if(hour<=16) {
@@ -122,7 +122,7 @@ if(month>=3 && month<=5) {
             localStorage.setItem('myKey11',data);
         });
         btnRead.addEventListener('click', () => {
-            const data = localStorage.getItem('mykey11');
+            const data = localStorage.getItem('myKey11');
             input.value = data;
         });
     }else if(hour<=24) {
